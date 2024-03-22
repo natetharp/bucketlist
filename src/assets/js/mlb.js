@@ -6,6 +6,11 @@ const mlb = [
 			city: "Anaheim",
 			state: "CA",
 		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
+		},
 	},
 	{
 		name: "Busch Stadium",
@@ -13,6 +18,11 @@ const mlb = [
 		location: {
 			city: "St. Louis",
 			state: "MO",
+		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
 		},
 	},
 	{
@@ -30,6 +40,11 @@ const mlb = [
 			city: "Queens",
 			state: "NY",
 		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
+		},
 	},
 	{
 		name: "Citizens Bank Park",
@@ -46,11 +61,6 @@ const mlb = [
 			city: "Detroit",
 			state: "MI",
 		},
-		dateVisited: {
-			month: 8,
-			day: 11,
-			year: 2022,
-		},
 	},
 	{
 		name: "Coors Field",
@@ -58,6 +68,11 @@ const mlb = [
 		location: {
 			city: "Denver",
 			state: "CO",
+		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
 		},
 	},
 	{
@@ -67,6 +82,11 @@ const mlb = [
 			city: "Los Angeles",
 			state: "CA",
 		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
+		},
 	},
 	{
 		name: "Fenway Park",
@@ -74,6 +94,11 @@ const mlb = [
 		location: {
 			city: "Boston",
 			state: "MA",
+		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
 		},
 	},
 	{
@@ -106,6 +131,11 @@ const mlb = [
 		location: {
 			city: "Kansas City",
 			state: "MO",
+		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
 		},
 	},
 	{
@@ -147,11 +177,6 @@ const mlb = [
 			city: "Oakland",
 			state: "CA",
 		},
-		dateVisited: {
-			month: 5,
-			day: 11,
-			year: 2019,
-		},
 	},
 	{
 		name: "Oracle Park",
@@ -160,11 +185,6 @@ const mlb = [
 			city: "San Francisco",
 			state: "CA",
 		},
-		dateVisited: {
-			month: 7,
-			day: 20,
-			year: 2019,
-		},
 	},
 	{
 		name: "Oriole Park at Camden Yards",
@@ -172,6 +192,11 @@ const mlb = [
 		location: {
 			city: "Baltimore",
 			state: "MD",
+		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
 		},
 	},
 	{
@@ -197,11 +222,6 @@ const mlb = [
 			city: "Cleveland",
 			state: "OH",
 		},
-		dateVisited: {
-			month: 6,
-			day: 25,
-			year: 2022,
-		},
 	},
 	{
 		name: "Rogers Center",
@@ -210,6 +230,11 @@ const mlb = [
 			city: "Toronto",
 			state: "ON",
 		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
+		},
 	},
 	{
 		name: "T-Mobile Park",
@@ -217,6 +242,11 @@ const mlb = [
 		location: {
 			city: "Seattle",
 			state: "WA",
+		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
 		},
 	},
 	{
@@ -242,6 +272,11 @@ const mlb = [
 			city: "Atlanta",
 			state: "GA",
 		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
+		},
 	},
 	{
 		name: "Wrigley Field",
@@ -249,6 +284,11 @@ const mlb = [
 		location: {
 			city: "Chicago",
 			state: "IL",
+		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
 		},
 	},
 	{
@@ -259,9 +299,9 @@ const mlb = [
 			state: "NY",
 		},
 		dateVisited: {
-			month: 9,
-			day: 25,
-			year: 2022,
+			month: 1,
+			day: 1,
+			year: 1900,
 		},
 	},
 ];

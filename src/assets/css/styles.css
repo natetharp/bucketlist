@@ -5,6 +5,7 @@
 	--text-color: #222;
 	--white: #fff;
 	--medium-gray: #555;
+	--success: #21d086;
 }
 
 /*@media (prefers-color-scheme: dark) {
@@ -48,7 +49,10 @@ h2 {
 	margin: 0 16px 16px;
 }
 
-#progress {
+#progress-mlb,
+#progress-nba,
+#progress-nfl,
+#progress-nhl {
 	text-align: center;
 	margin-top: 0;
 	margin-bottom: 32px;
@@ -89,7 +93,7 @@ h2 {
 }
 
 #ballparks-list .visited {
-	border: 4px solid green;
+	border: 4px solid var(--success);
 }
 
 #ballparks-list .visited img {
@@ -103,7 +107,7 @@ h2 {
 #ballparks-list .visited:before {
 	content: "";
 	//background-color: rgba(22, 22, 22, 0.4);
-	background-color: green;
+	background-color: var(--success);
 	position: absolute;
 	bottom: -40px;
 	right: -40px;
@@ -138,21 +142,22 @@ h2 {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+	main {
+		width: 85%;
+	}
+
 	h1 {
 		font-size: 44px;
 		line-height: 46px;
-		width: 85%;
 		margin: 64px auto 10px;
 	}
 
 	h2 {
-		width: 85%;
 		margin: 0 auto 10px;
 	}
 
 	#ballparks-list {
 		flex-direction: column;
-		width: 85%;
 	}
 
 	#ballparks-list li {
@@ -179,14 +184,21 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+main {
+	margin: 0px 32px;
+}
+
 h1 {
 	font-size: 72px;
 	font-weight: 900;
 	text-align: center;
-	margin: 48px 16px 16px;
+	margin: 48px 0 16px;
 }
 
-#progress {
+#progress-mlb,
+#progress-nba,
+#progress-nfl,
+#progress-nhl {
 	text-align: center;
 	margin-top: 0;
 	margin-bottom: 32px;
@@ -237,7 +249,7 @@ h1 {
 #list-nba .visited,
 #list-nfl .visited,
 #list-nhl .visited {
-	border: 4px solid green;
+	border: 4px solid var(--success);
 }
 
 #list-mlb .visited img,
@@ -259,7 +271,7 @@ h1 {
 #list-nfl .visited:before,
 #list-nhl .visited:before {
 	content: "";
-	background-color: green;
+	background-color: var(--success);
 	position: absolute;
 	bottom: -40px;
 	right: -40px;
@@ -382,15 +394,18 @@ li.tab {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+	main {
+		width: 85%;
+	}
+
 	h1 {
 		font-size: 44px;
 		line-height: 46px;
-		width: 85%;
+
 		margin: 64px auto 10px;
 	}
 
 	h2 {
-		width: 85%;
 		margin: 0 auto 10px;
 	}
 
@@ -399,7 +414,6 @@ li.tab {
 	#list-nfl,
 	#list-nhl {
 		flex-direction: column;
-		width: 85%;
 	}
 
 	#list-mlb li,

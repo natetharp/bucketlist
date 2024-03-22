@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>NFL Bucketlist</title>
+		<meta name="description" content="Documenting our attempt to visit every NFL stadium." />
+		<meta name="author" content="Derek P. Collins" />
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-title" content="NFL Bucketlist" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta
+			name="viewport"
+			content="viewport-fit=cover, user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"
+		/>
+
+		<!--<link rel="apple-touch-icon" href="./assets/img/app-icon.png" />-->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Inter:wght@300;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="./assets/css/app-mlb.css" />
+		<link rel="stylesheet" href="./assets/css/app-nfl.css" />
+	</head>
+
+	<body>
+		<h1>Bucketlist</h1>
+
+		<h2>MLB Bucketlist</h2>
+		<p id="progress"></p>
+
+		<ul id="ballparks-list"></ul>
+
+		<!-- BALLPARK TEMPLATE -->
+		<template id="ballpark-template">
+			<h3></h3>
+			<p class="location"></p>
+			<img src="" class="team-logo" />
+		</template>
+
+		<h2>NBA Bucketlist</h2>
+		<p id="progress"></p>
+
+		<h2>NFL Bucketlist</h2>
+		<p id="progress"></p>
+
+		<ul id="stadiums-list"></ul>
+
+		<!-- STADIUM TEMPLATE -->
+		<template id="stadium-template">
+			<h3></h3>
+			<p class="location"></p>
+			<img src="" class="team-logo" />
+		</template>
+
+		<script src="https://kit.fontawesome.com/3965040322.js" crossorigin="anonymous"></script>
+		<script type="module" src="./assets/js/app-mlb.js"></script>
+		<script type="module" src="./assets/js/app-nfl.js"></script>
+	</body>
+</html>

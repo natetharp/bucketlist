@@ -30,6 +30,23 @@
 
 	<body>
 		<h1>Bucketlist</h1>
+		
+		
+		<div class="tabbed">
+			<input type="radio" id="tab1" name="css-tabs" checked>
+			<input type="radio" id="tab2" name="css-tabs">
+			<input type="radio" id="tab3" name="css-tabs">
+			<input type="radio" id="tab4" name="css-tabs">
+			
+			<ul class="tabs">
+				<li class="tab"><label for="tab1">MLB</label></li>
+				<li class="tab"><label for="tab2">NBA</label></li>
+				<li class="tab"><label for="tab3">NFL</label></li>
+				<li class="tab"><label for="tab4">NHL</label></li>
+			</ul>
+		
+		
+		<div class="tab-content">
 
 		<h2>MLB Bucketlist</h2>
 		<p id="progress-mlb"></p>
@@ -42,6 +59,10 @@
 			<p class="location"></p>
 			<img src="" class="team-logo" />
 		</template>
+		
+		</div>
+		
+		<div class="tab-content">
 
 		<h2>NBA Bucketlist</h2>
 		<p id="progress-nba"></p>
@@ -54,6 +75,10 @@
 			<p class="location"></p>
 			<img src="" class="team-logo" />
 		</template>
+		
+		</div>
+		
+		<div class="tab-content">
 
 		<h2>NFL Bucketlist</h2>
 		<p id="progress-nlf"></p>
@@ -66,6 +91,10 @@
 			<p class="location"></p>
 			<img src="" class="team-logo" />
 		</template>
+		
+		</div>
+		
+		<div class="tab-content">
 
 		<h2>NHL Bucketlist</h2>
 		<p id="progress-nhl"></p>
@@ -78,6 +107,8 @@
 			<p class="location"></p>
 			<img src="" class="team-logo" />
 		</template>
+		
+		</div>
 
 		<script src="https://kit.fontawesome.com/3965040322.js" crossorigin="anonymous"></script>
 		<script type="module" src="./assets/js/app-mlb.js"></script>

@@ -29,69 +29,95 @@
 	</head>
 
 	<body>
-		<main>
+                  
+                  <main>
 			<header>
-				<h1>Sports Bucketlist</h1>
-			</header>
+		<h1>Bucketlist</h1>
+		
+		<nav>
+		<div class="tabbed">
+			<input type="radio" id="tab1" name="css-tabs" checked>
+			<input type="radio" id="tab2" name="css-tabs">
+			<input type="radio" id="tab3" name="css-tabs">
+			<input type="radio" id="tab4" name="css-tabs">
+			
+			<ul class="tabs">
+				<li class="tab"><label for="tab1">MLB</label></li>
+				<li class="tab"><label for="tab2">NBA</label></li>
+				<li class="tab"><label for="tab3">NFL</label></li>
+				<li class="tab"><label for="tab4">NHL</label></li>
+			</ul>
+		</nav>
+		
+		<div class="tab-content">
 
-			<nav></nav>
+      
 
 			<section id="bucketlist-mlb">
-				<h2>MLB Bucketlist</h2>
-				<p id="progress-mlb"></p>
+		<h2>MLB Bucketlist</h2>
+		<p id="progress-mlb"></p>
 
-				<ul id="list-mlb"></ul>
+		<ul id="list-mlb"></ul>
 
-				<!-- BALLPARK TEMPLATE -->
-				<template id="template-mlb">
-					<h3></h3>
-					<p class="location"></p>
-					<img src="" class="team-logo" />
-				</template>
-			</section>
+		<!-- BALLPARK TEMPLATE -->
+		<template id="template-mlb">
+			<h3></h3>
+			<p class="location"></p>
+			<img src="" class="team-logo" />
+		</template>
+      </section>
+		</div>
+		
+		<div class="tab-content">
+<section id="bucketlist-nba">
+		<h2>NBA Bucketlist</h2>
+		<p id="progress-nba"></p>
 
-			<section id="bucketlist-nba">
-				<h2>NBA Bucketlist</h2>
-				<p id="progress-nba"></p>
+		<ul id="list-nba"></ul>
 
-				<ul id="list-nba"></ul>
+		<!-- STADIUM TEMPLATE -->
+		<template id="template-nba">
+			<h3></h3>
+			<p class="location"></p>
+			<img src="" class="team-logo" />
+		</template>
+      </section>
+		</div>
+		
+		<div class="tab-content">
+      <section id="bucketlist-nfl">
 
-				<!-- STADIUM TEMPLATE -->
-				<template id="template-nba">
-					<h3></h3>
-					<p class="location"></p>
-					<img src="" class="team-logo" />
-				</template>
-			</section>
+		<h2>NFL Bucketlist</h2>
+		<p id="progress-nlf"></p>
 
-			<section id="bucketlist-nfl">
-				<h2>NFL Bucketlist</h2>
-				<p id="progress-nfl"></p>
+		<ul id="list-nfl"></ul>
 
-				<ul id="list-nfl"></ul>
+		<!-- STADIUM TEMPLATE -->
+		<template id="template-nfl">
+			<h3></h3>
+			<p class="location"></p>
+			<img src="" class="team-logo" />
+		</template>
+      </section>
+		</div>
+		
+		<div class="tab-content">
+<section id="bucketlist-nhl">
+		<h2>NHL Bucketlist</h2>
+		<p id="progress-nhl"></p>
 
-				<!-- STADIUM TEMPLATE -->
-				<template id="template-nfl">
-					<h3></h3>
-					<p class="location"></p>
-					<img src="" class="team-logo" />
-				</template>
-			</section>
+		<ul id="list-nhl"></ul>
 
-			<section id="bucketlist-nhl">
-				<h2>NHL Bucketlist</h2>
-				<p id="progress-nhl"></p>
-
-				<ul id="list-nhl"></ul>
-
-				<!-- STADIUM TEMPLATE -->
-				<template id="template-nhl">
-					<h3></h3>
-					<p class="location"></p>
-					<img src="" class="team-logo" />
-				</template>
-			</section>
-		</main>
+		<!-- STADIUM TEMPLATE -->
+		<template id="template-nhl">
+			<h3></h3>
+			<p class="location"></p>
+			<img src="" class="team-logo" />
+		</template>
+      </section>
+		</div>
+      
+      </main>
 
 		<script src="https://kit.fontawesome.com/3965040322.js" crossorigin="anonymous"></script>
 		<script type="module" src="./assets/js/app-mlb.js"></script>

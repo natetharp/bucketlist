@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 
 		<title>Sports Bucketlist</title>
-		<meta name="description" content="Documenting my attempt to visit every major league sports stadium." />
+		<meta name="description" content="Documenting my attempt to see every major league sports team." />
 		<meta name="author" content="Nate Tharp" />
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -29,55 +29,69 @@
 	</head>
 
 	<body>
-		<h1>Bucketlist</h1>
+		<main>
+			<header>
+				<h1>Sports Bucketlist</h1>
+			</header>
 
-		<h2>MLB Bucketlist</h2>
-		<p id="progress-mlb"></p>
+			<nav></nav>
 
-		<ul id="list-mlb"></ul>
+			<section id="bucketlist-mlb">
+				<h2>MLB Bucketlist</h2>
+				<p id="progress-mlb"></p>
 
-		<!-- BALLPARK TEMPLATE -->
-		<template id="template-mlb">
-			<h3></h3>
-			<p class="location"></p>
-			<img src="" class="team-logo" />
-		</template>
+				<ul id="list-mlb"></ul>
 
-		<h2>NBA Bucketlist</h2>
-		<p id="progress-nba"></p>
+				<!-- BALLPARK TEMPLATE -->
+				<template id="template-mlb">
+					<h3></h3>
+					<p class="location"></p>
+					<img src="" class="team-logo" />
+				</template>
+			</section>
 
-		<ul id="list-nba"></ul>
+			<section id="bucketlist-nba">
+				<h2>NBA Bucketlist</h2>
+				<p id="progress-nba"></p>
 
-		<!-- STADIUM TEMPLATE -->
-		<template id="template-nba">
-			<h3></h3>
-			<p class="location"></p>
-			<img src="" class="team-logo" />
-		</template>
+				<ul id="list-nba"></ul>
 
-		<h2>NFL Bucketlist</h2>
-		<p id="progress-nlf"></p>
+				<!-- STADIUM TEMPLATE -->
+				<template id="template-nba">
+					<h3></h3>
+					<p class="location"></p>
+					<img src="" class="team-logo" />
+				</template>
+			</section>
 
-		<ul id="list-nfl"></ul>
+			<section id="bucketlist-nfl">
+				<h2>NFL Bucketlist</h2>
+				<p id="progress-nfl"></p>
 
-		<!-- STADIUM TEMPLATE -->
-		<template id="template-nfl">
-			<h3></h3>
-			<p class="location"></p>
-			<img src="" class="team-logo" />
-		</template>
+				<ul id="list-nfl"></ul>
 
-		<h2>NHL Bucketlist</h2>
-		<p id="progress-nhl"></p>
+				<!-- STADIUM TEMPLATE -->
+				<template id="template-nfl">
+					<h3></h3>
+					<p class="location"></p>
+					<img src="" class="team-logo" />
+				</template>
+			</section>
 
-		<ul id="list-nhl"></ul>
+			<section id="bucketlist-nhl">
+				<h2>NHL Bucketlist</h2>
+				<p id="progress-nhl"></p>
 
-		<!-- STADIUM TEMPLATE -->
-		<template id="template-nhl">
-			<h3></h3>
-			<p class="location"></p>
-			<img src="" class="team-logo" />
-		</template>
+				<ul id="list-nhl"></ul>
+
+				<!-- STADIUM TEMPLATE -->
+				<template id="template-nhl">
+					<h3></h3>
+					<p class="location"></p>
+					<img src="" class="team-logo" />
+				</template>
+			</section>
+		</main>
 
 		<script src="https://kit.fontawesome.com/3965040322.js" crossorigin="anonymous"></script>
 		<script type="module" src="./assets/js/app-mlb.js"></script>

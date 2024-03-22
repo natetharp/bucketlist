@@ -23,9 +23,9 @@ const nfl = [
 			state: "MO",
 		},
 		dateVisited: {
-			month: 8,
-			day: 11,
-			year: 2022,
+			month: 1,
+			day: 1,
+			year: 1900,
 		},
 	},
 	{
@@ -59,11 +59,6 @@ const nfl = [
 			city: "Cleveland",
 			state: "OH",
 		},
-		dateVisited: {
-			month: 8,
-			day: 11,
-			year: 2022,
-		},
 	},
 	{
 		name: "Empower Field at Mile High",
@@ -85,6 +80,11 @@ const nfl = [
 			city: "Landover",
 			state: "MD",
 		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
+		},
 	},
 	{
 		name: "Ford Field",
@@ -100,6 +100,11 @@ const nfl = [
 		location: {
 			city: "Foxboro",
 			state: "MA",
+		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
 		},
 	},
 	{
@@ -117,6 +122,11 @@ const nfl = [
 			city: "Orchard Park",
 			state: "NY",
 		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
+		},
 	},
 	{
 		name: "Lambeau Field",
@@ -124,6 +134,11 @@ const nfl = [
 		location: {
 			city: "Green Bay",
 			state: "WI",
+		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
 		},
 	},
 	{
@@ -154,6 +169,11 @@ const nfl = [
 			city: "Indianapolis",
 			state: "IN",
 		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
+		},
 	},
 	{
 		name: "Lumen Field",
@@ -170,6 +190,11 @@ const nfl = [
 			city: "Baltimore",
 			state: "MD",
 		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
+		},
 	},
 	{
 		name: "Mercedes-Benz Stadium",
@@ -181,15 +206,28 @@ const nfl = [
 	},
 	{
 		name: "MetLife Stadium",
-		team: "New York Giants + Jets",
+		team: "New York Giants",
 		location: {
 			city: "East Rutherford",
 			state: "NJ",
 		},
 		dateVisited: {
-			month: 8,
-			day: 11,
-			year: 2022,
+			month: 1,
+			day: 1,
+			year: 1900,
+		},
+	},
+	{
+		name: "MetLife Stadium",
+		team: "New York Jets",
+		location: {
+			city: "East Rutherford",
+			state: "NJ",
+		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
 		},
 	},
 	{
@@ -226,7 +264,20 @@ const nfl = [
 	},
 	{
 		name: "SoFi Stadium",
-		team: "Los Angeles Rams + Chargers",
+		team: "Los Angeles Chargers",
+		location: {
+			city: "Inglewood",
+			state: "CA",
+		},
+		dateVisited: {
+			month: 1,
+			day: 1,
+			year: 1900,
+		},
+	},
+	{
+		name: "SoFi Stadium",
+		team: "Los Angeles Rams",
 		location: {
 			city: "Inglewood",
 			state: "CA",
@@ -247,11 +298,6 @@ const nfl = [
 			city: "Glendale",
 			state: "AZ",
 		},
-		dateVisited: {
-			month: 8,
-			day: 11,
-			year: 2022,
-		},
 	},
 	{
 		name: "TIAA Bank Field",
@@ -267,11 +313,6 @@ const nfl = [
 		location: {
 			city: "Minneapolis",
 			state: "MN",
-		},
-		dateVisited: {
-			month: 8,
-			day: 11,
-			year: 2022,
 		},
 	},
 ];

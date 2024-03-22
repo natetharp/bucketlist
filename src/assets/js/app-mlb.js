@@ -1,4 +1,4 @@
-import { ballparks } from "./ballparks-mlb.js";
+import { mlb } from "./mlb.js";
 
 const addProgress = (data, el) => {
 	const totalNum = data.length;
@@ -20,7 +20,7 @@ const addProgress = (data, el) => {
 
 const cloneTemplate = () => {
 	// Get the correct device template
-	const template = document.getElementById("ballpark-template");
+	const template = document.getElementById("template-mlb");
 
 	// Clone the template content
 	const clone = template.content.cloneNode(true);
@@ -29,7 +29,7 @@ const cloneTemplate = () => {
 };
 
 const addBallparks = (data) => {
-	const ballparksListEl = document.getElementById("ballparks-list");
+	const ballparksListEl = document.getElementById("list-mlb");
 	// Add ballparks to the page
 	data.forEach(function (ballpark) {
 		const ballparkTemplate = cloneTemplate();
@@ -51,5 +51,5 @@ const addBallparks = (data) => {
 	});
 };
 
-addBallparks(ballparks);
-addProgress(ballparks, document.getElementById("progress"));
+addBallparks(mlb);
+addProgress(mlb, document.getElementById("progress-mlb"));

@@ -1,4 +1,4 @@
-import { nfl } from "./nfl.js";
+import { nhl } from "./nhl.js";
 
 const addProgress = (data, el) => {
 	const totalNum = data.length;
@@ -20,7 +20,7 @@ const addProgress = (data, el) => {
 
 const cloneTemplate = () => {
 	// Get the correct device template
-	const template = document.getElementById("template-nfl");
+	const template = document.getElementById("template-nhl");
 
 	// Clone the template content
 	const clone = template.content.cloneNode(true);
@@ -29,7 +29,7 @@ const cloneTemplate = () => {
 };
 
 const addStadiums = (data) => {
-	const stadiumsListEl = document.getElementById("list-nfl");
+	const stadiumsListEl = document.getElementById("list-nhl");
 	// Add stadiums to the page
 	data.forEach(function (stadium) {
 		const stadiumTemplate = cloneTemplate();
@@ -51,5 +51,5 @@ const addStadiums = (data) => {
 	});
 };
 
-addStadiums(nfl);
-addProgress(nfl, document.getElementById("progress-nfl"));
+addStadiums(nhl);
+addProgress(nhl, document.getElementById("progress-nhl"));

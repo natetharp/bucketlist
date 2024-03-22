@@ -1,4 +1,4 @@
-const stadiums = [
+const nfl = [
 	{
 		name: "Acrisure Stadium",
 		team: "Pittsburgh Steelers",
@@ -198,7 +198,7 @@ const stadiums = [
 		location: {
 			city: "Nashville",
 			state: "TN",
-		}
+		},
 	},
 	{
 		name: "NRG Stadium",
@@ -206,7 +206,7 @@ const stadiums = [
 		location: {
 			city: "Houston",
 			state: "TX",
-		}
+		},
 	},
 	{
 		name: "Paycor Stadium",
@@ -214,7 +214,7 @@ const stadiums = [
 		location: {
 			city: "Cincinnati",
 			state: "OH",
-		}
+		},
 	},
 	{
 		name: "Raymond James Stadium",
@@ -222,7 +222,7 @@ const stadiums = [
 		location: {
 			city: "Tampa",
 			state: "FL",
-		}
+		},
 	},
 	{
 		name: "SoFi Stadium",
@@ -230,7 +230,7 @@ const stadiums = [
 		location: {
 			city: "Inglewood",
 			state: "CA",
-		}
+		},
 	},
 	{
 		name: "Soldier Field",
@@ -238,7 +238,7 @@ const stadiums = [
 		location: {
 			city: "Chicago",
 			state: "IL",
-		}
+		},
 	},
 	{
 		name: "State Farm Stadium",
@@ -276,4 +276,4 @@ const stadiums = [
 	},
 ];
 
-export { stadiums };
+export { nfl };

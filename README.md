@@ -2,7 +2,7 @@
 
 ## Major league sports ballpark bucketlist
 
-### Documenting my attempt to visit every NBA, NFL, and MLB stadium.
+### Documenting my attempt to see every major league sports team.
 
 ## Credits
 
@@ -30,6 +30,7 @@ Ripped from [Derek P. Collins'](https://github.com/derekpcollins) [NFL Bucketlis
 -   Using ESModules with a good [intro here](https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-the-browser).
 -   Using a [`for...of` loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of).
 -   Used the [CSS Shadow Palette Generator](https://www.joshwcomeau.com/shadow-palette/) for the card shadows.
+-   Used the [CSS-only tabbed navigation](https://codepen.io/MPDoctor/pen/mpJdYe) from [Michał Pawełczyk](https://www.linkedin.com/in/michalpawelczyk/)
 
 ## Setup
 
@@ -41,6 +42,11 @@ You can optionally specifying a port by passing in a `-p` flag, such as:
 
 `npx serve src/ -p 3030`
 
-Or using Vercel
+## Future Updates
 
-`vercel dev`
+-   Better responsive styling
+-   Remove duplicate styles
+-   Combine app-\*.js files into one
+-   Fix footer styling
+-   Add metadata
+-   Add social images (including to GitHub settings)

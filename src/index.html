@@ -29,95 +29,127 @@
 	</head>
 
 	<body>
-                  
-                  <main>
-			<header>
-		<h1>Bucketlist</h1>
-		
-		<nav>
-		<div class="tabbed">
-			<input type="radio" id="tab1" name="css-tabs" checked>
-			<input type="radio" id="tab2" name="css-tabs">
-			<input type="radio" id="tab3" name="css-tabs">
-			<input type="radio" id="tab4" name="css-tabs">
-			
-			<ul class="tabs">
-				<li class="tab"><label for="tab1">MLB</label></li>
-				<li class="tab"><label for="tab2">NBA</label></li>
-				<li class="tab"><label for="tab3">NFL</label></li>
-				<li class="tab"><label for="tab4">NHL</label></li>
-			</ul>
-		</nav>
-		
-		<div class="tab-content">
+		<header>
+			<h1>Sports Bucketlist</h1>
 
-      
+			<nav></nav>
+		</header>
+		<main>
+			<div class="tabbed">
+				<input type="radio" id="tab1" name="css-tabs" checked />
+				<input type="radio" id="tab2" name="css-tabs" />
+				<input type="radio" id="tab3" name="css-tabs" />
+				<input type="radio" id="tab4" name="css-tabs" />
 
-			<section id="bucketlist-mlb">
-		<h2>MLB Bucketlist</h2>
-		<p id="progress-mlb"></p>
+				<nav class="tabs">
+					<ul>
+						<li class="tab"><label for="tab1">MLB</label></li>
+						<li class="tab"><label for="tab2">NBA</label></li>
+						<li class="tab"><label for="tab3">NFL</label></li>
+						<li class="tab"><label for="tab4">NHL</label></li>
+					</ul>
+				</nav>
 
-		<ul id="list-mlb"></ul>
+				<div class="tab-content">
+					<section id="bucketlist-mlb">
+						<h2>MLB Bucketlist</h2>
+						<p id="progress-mlb"></p>
 
-		<!-- BALLPARK TEMPLATE -->
-		<template id="template-mlb">
-			<h3></h3>
-			<p class="location"></p>
-			<img src="" class="team-logo" />
-		</template>
-      </section>
-		</div>
-		
-		<div class="tab-content">
-<section id="bucketlist-nba">
-		<h2>NBA Bucketlist</h2>
-		<p id="progress-nba"></p>
+						<ul id="list-mlb"></ul>
 
-		<ul id="list-nba"></ul>
+						<!-- BALLPARK TEMPLATE -->
+						<template id="template-mlb">
+							<h3></h3>
+							<p class="location"></p>
+							<img src="" class="team-logo" />
+						</template>
+					</section>
+				</div>
 
-		<!-- STADIUM TEMPLATE -->
-		<template id="template-nba">
-			<h3></h3>
-			<p class="location"></p>
-			<img src="" class="team-logo" />
-		</template>
-      </section>
-		</div>
-		
-		<div class="tab-content">
-      <section id="bucketlist-nfl">
+				<div class="tab-content">
+					<section id="bucketlist-nba">
+						<h2>NBA Bucketlist</h2>
+						<p id="progress-nba"></p>
 
-		<h2>NFL Bucketlist</h2>
-		<p id="progress-nlf"></p>
+						<ul id="list-nba"></ul>
 
-		<ul id="list-nfl"></ul>
+						<!-- STADIUM TEMPLATE -->
+						<template id="template-nba">
+							<h3></h3>
+							<p class="location"></p>
+							<img src="" class="team-logo" />
+						</template>
+					</section>
+				</div>
 
-		<!-- STADIUM TEMPLATE -->
-		<template id="template-nfl">
-			<h3></h3>
-			<p class="location"></p>
-			<img src="" class="team-logo" />
-		</template>
-      </section>
-		</div>
-		
-		<div class="tab-content">
-<section id="bucketlist-nhl">
-		<h2>NHL Bucketlist</h2>
-		<p id="progress-nhl"></p>
+				<div class="tab-content">
+					<section id="bucketlist-nfl">
+						<h2>NFL Bucketlist</h2>
+						<p id="progress-nfl"></p>
 
-		<ul id="list-nhl"></ul>
+						<ul id="list-nfl"></ul>
 
-		<!-- STADIUM TEMPLATE -->
-		<template id="template-nhl">
-			<h3></h3>
-			<p class="location"></p>
-			<img src="" class="team-logo" />
-		</template>
-      </section>
-		</div>
-      
-      </main>
+						<!-- STADIUM TEMPLATE -->
+						<template id="template-nfl">
+							<h3></h3>
+							<p class="location"></p>
+							<img src="" class="team-logo" />
+						</template>
+					</section>
+				</div>
+
+				<div class="tab-content">
+					<section id="bucketlist-nhl">
+						<h2>NHL Bucketlist</h2>
+						<p id="progress-nhl"></p>
+
+						<ul id="list-nhl"></ul>
+
+						<!-- STADIUM TEMPLATE -->
+						<template id="template-nhl">
+							<h3></h3>
+							<p class="location"></p>
+							<img src="" class="team-logo" />
+						</template>
+					</section>
+				</div>
+			</div>
+		</main>
+		<footer class="footer-post">
+			<nav>
+				<ul>
+					<li><a href="https://mastodon.social/@natetharp">Mastodon</a></li>
+					<li><a href="https://www.threads.net/@natetharp">Threads</a></li>
+					<li><a href="https://linkedin.com/in/natetharp">LinkedIn</a></li>
+					<li><a href="https://github.com/natetharp">GitHub</a></li>
+					<li><a href="https://bsky.app/profile/natetharp.bsky.social">Bluesky</a></li>
+					<li><a href="https://twitter.com/natetharp/">Twitter</a></li>
+				</ul>
+			</nav>
+			<p>
+				Nate Tharp is a designer who tinkers in code. He's worked at Crackle, Live Nation, and a handful of
+				other companies.
+			</p>
+
+			<div>
+				<a href="#" id="top" title="Jump to top">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						enable-background="new 0 0 24 24"
+						height="40"
+						viewBox="0 0 24 24"
+						width="40"
+					>
+						<g>
+							<rect fill="none" height="24" width="24"></rect>
+							<path
+								d="M12,20c-4.41,0-8-3.59-8-8s3.59-8,8-8s8,3.59,8,8S16.41,20,12,20 M12,22c5.52,0,10-4.48,10-10c0-5.52-4.48-10-10-10 C6.48,2,2,6.48,2,12C2,17.52,6.48,22,12,22L12,22z M11,12l0,3c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1l0-3h1.79 c0.45,0,0.67-0.54,0.35-0.85l-2.79-2.79c-0.2-0.2-0.51-0.2-0.71,0l-2.79,2.79C8.54,11.46,8.76,12,9.21,12H11z"
+							></path>
+						</g>
+					</svg>
+				</a>
+			</div>
+		</footer>
 
 		<script src="https://kit.fontawesome.com/3965040322.js" crossorigin="anonymous"></script>
 		<script type="module" src="./assets/js/app-mlb.js"></script>

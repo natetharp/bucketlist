@@ -26,7 +26,7 @@ Ripped from [Derek P. Collins'](https://github.com/derekpcollins) [NFL Bucketlis
 
 ### Development
 
--   Using [FontAwesome](https://fontawesome.com) for the icons.
+-   Using [Phosphor Icons](https://phosphoricons.com) for the icons.
 -   Using ESModules with a good [intro here](https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-the-browser).
 -   Using a [`for...of` loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of).
 -   Used the [CSS Shadow Palette Generator](https://www.joshwcomeau.com/shadow-palette/) for the card shadows.

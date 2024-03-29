@@ -15,7 +15,7 @@ const addProgress = (data, el) => {
 
 	// Create a new element to display this data
 	el.innerHTML =
-		"<strong>" + totalNumVisited + " of " + totalNum + "</strong> (" + percentVisited + "%) stadiums visited.";
+		"<strong>" + totalNumVisited + " of " + totalNum + "</strong> (" + percentVisited + "%) arenas visited.";
 };
 
 const cloneTemplate = () => {

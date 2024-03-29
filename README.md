@@ -26,7 +26,7 @@ Ripped from [Derek P. Collins'](https://github.com/derekpcollins) [NFL Bucketlis
 
 ### Development
 
--   I'm using [FontAwesome](https://fontawesome.com) for the icons.
+-   Using [FontAwesome](https://fontawesome.com) for the icons.
 -   Using ESModules with a good [intro here](https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-the-browser).
 -   Using a [`for...of` loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of).
 -   Used the [CSS Shadow Palette Generator](https://www.joshwcomeau.com/shadow-palette/) for the card shadows.
@@ -50,3 +50,4 @@ You can optionally specifying a port by passing in a `-p` flag, such as:
 -   Fix footer styling
 -   Add metadata
 -   Add social images (including to GitHub settings)
+-   Replace tabbed navigation with pills/buttons

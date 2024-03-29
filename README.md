@@ -6,7 +6,7 @@
 
 ## Credits
 
-Ripped from [Derek P. Collins'](https://github.com/derekpcollins) [NFL Bucketlist](https://github.com/derekpcollins/nfl-bucketlist) and [Ballpark Bucketlist](https://github.com/derekpcollins/ballpark-bucketlist).
+Cloned from [Derek P. Collins'](https://github.com/derekpcollins) [NFL Bucketlist](https://github.com/derekpcollins/nfl-bucketlist) and [Ballpark Bucketlist](https://github.com/derekpcollins/ballpark-bucketlist).
 
 ## Notes
 

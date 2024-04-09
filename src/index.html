@@ -1,22 +1,60 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
 	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
 		<meta charset="utf-8" />
 
 		<title>Sports Bucketlist</title>
 		<meta name="description" content="Documenting my attempt to see every major league sports team." />
+		<meta name="keywords" content="sports, mlb, nba, nfl, nhl, arena, stadium, ballpark" />
 		<meta name="author" content="Nate Tharp" />
+		<link rel="canonical" href="" />
+		<meta name="robots" content="index" />
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-title" content="Sports Bucketlist" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-		<meta
-			name="viewport"
-			content="viewport-fit=cover, user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"
-		/>
 
 		<!--<link rel="apple-touch-icon" href="./assets/img/app-icon.png" />-->
+
+		<!-- / Facebook + Open Graph -->
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Website" />
+		<meta property="og:title" content="Sports Bucketlist" />
+		<meta property="og:description" content="Documenting my attempt to see every major league sports team." />
+		<meta property="og:url" content="https://www.example.com" />
+		<meta property="og:image" content="./assets/img/open-graph-logo-1200x1200.png" />
+		<meta property="og:image:alt" content="Image description" />
+
+		<!-- / Twitter Card -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@natetharp" />
+		<meta name="twitter:title" content="Sports Bucketlist" />
+		<meta name="twitter:description" content="Documenting my attempt to see every major league sports team." />
+		<meta name="twitter:image" content="./assets/img/twitter-card-logo-1024x512.png" />
+		<meta name="twitter:image:alt" content="Image description" />
+
+		<!-- / Favorite Icons -->
+		<meta name="msapplication-TileColor" content="#e21836" />
+		<meta name="msapplication-TileImage" content="./assets/img/ms-icon-144x144.png" />
+		<meta name="theme-color" content="#ffffff" />
+		<link rel="mask-icon" href="./assets/img/safari-pinned-tab.svg" color="#e21836" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-icon-180x180.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="./assets/img/apple-icon-152x152.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="./assets/img/apple-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="./assets/img/apple-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="./assets/img/apple-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="./assets/img/apple-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="60x60" href="./assets/img/apple-icon-60x60.png" />
+		<link rel="apple-touch-icon" sizes="57x57" href="./assets/img/apple-icon-57x57.png" />
+		<link rel="icon" type="image/png" sizes="192x192" href="./assets/img/android-icon-192x192.png" />
+		<link rel="icon" type="image/png" sizes="96x96" href="./assets/img/favicon-96x96.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png" />
+		<link rel="shortcut icon" href="./assets/img/favicon.ico" />
 
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -124,7 +162,7 @@
 					Made with ♥ in Los Angeles.
 				</p>
 
-				<nav>
+				<!-- <nav>
 					<ul>
 						<li><a href="https://mastodon.social/@natetharp">Mastodon</a></li>
 						<li><a href="https://www.threads.net/@natetharp">Threads</a></li>
@@ -133,7 +171,7 @@
 						<li><a href="https://bsky.app/profile/natetharp.bsky.social">Bluesky</a></li>
 						<li><a href="https://twitter.com/natetharp/">Twitter</a></li>
 					</ul>
-				</nav>
+				</nav> -->
 
 				<p>
 					Nate Tharp is a designer who tinkers in code. He's worked at Crackle, Live Nation, and a handful of
@@ -161,7 +199,7 @@
 			</div>
 		</footer>
 
-		<script src="https://kit.fontawesome.com/3965040322.js" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/@phosphor-icons/web@2.1.1" crossorigin="anonymous"></script>
 		<script type="module" src="./assets/js/app-mlb.js"></script>
 		<script type="module" src="./assets/js/app-nba.js"></script>
 		<script type="module" src="./assets/js/app-nfl.js"></script>

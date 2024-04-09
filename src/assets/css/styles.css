@@ -251,11 +251,11 @@ main {
 }
 
 footer {
-	margin: 6em auto 0;
+	margin: 4em auto 0;
 	text-align: center;
 	max-width: 60rem;
 	font-size: 1.6rem;
-	padding-bottom: 10rem;
+	padding-bottom: 4rem;
 }
 
 footer nav {
@@ -286,6 +286,10 @@ footer nav ul li:first-child:before {
 footer #top {
 	opacity: 0.25;
 	transition: 0.3s;
+}
+
+footer #top svg {
+	margin-top: 2rem;
 }
 
 footer #top:hover {

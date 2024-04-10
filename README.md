@@ -1,8 +1,6 @@
 # Sports Bucketlist
 
-## Major league sports ballpark bucketlist
-
-### Documenting my attempt to see every major league sports team.
+Documenting my attempt to see every major league sports team.
 
 ## Credits
 
@@ -12,10 +10,10 @@ Cloned from [Derek P. Collins'](https://github.com/derekpcollins) [NFL Bucketlis
 
 ### Teams
 
--   MLB teams from [Wikipedia](https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums)
--   NBA teams from [Wikipedia](https://en.wikipedia.org/wiki/List_of_NBA_arenas)
--   NFL teams from [Wikipedia](https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums)
--   NHL teams from [Wikipedia](https://en.wikipedia.org/wiki/List_of_National_Hockey_League_arenas)
+-   MLB teams from [Wikipedia](https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums).
+-   NBA teams from [Wikipedia](https://en.wikipedia.org/wiki/List_of_NBA_arenas).
+-   NFL teams from [Wikipedia](https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums).
+-   NHL teams from [Wikipedia](https://en.wikipedia.org/wiki/List_of_National_Hockey_League_arenas).
 
 ### Logos
 
@@ -30,7 +28,7 @@ Cloned from [Derek P. Collins'](https://github.com/derekpcollins) [NFL Bucketlis
 -   Using ESModules with a good [intro here](https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-the-browser).
 -   Using a [`for...of` loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of).
 -   Used the [CSS Shadow Palette Generator](https://www.joshwcomeau.com/shadow-palette/) for the card shadows.
--   Used the [CSS-only tabbed navigation](https://codepen.io/MPDoctor/pen/mpJdYe) from [Michał Pawełczyk](https://www.linkedin.com/in/michalpawelczyk/)
+-   Used the [CSS-only tabbed navigation](https://codepen.io/MPDoctor/pen/mpJdYe) from [Michał Pawełczyk](https://www.linkedin.com/in/michalpawelczyk/).
 
 ## Setup
 
@@ -47,7 +45,3 @@ You can optionally specifying a port by passing in a `-p` flag, such as:
 -   Better responsive styling
 -   Remove duplicate styles
 -   Combine app-\*.js files into one
--   Fix footer styling
--   Add metadata
--   Add social images (including to GitHub settings)
--   Replace tabbed navigation with pills/buttons

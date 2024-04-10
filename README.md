@@ -45,3 +45,4 @@ You can optionally specifying a port by passing in a `-p` flag, such as:
 -   Better responsive styling
 -   Remove duplicate styles
 -   Combine app-\*.js files into one
+-   Update visited list with correct dates

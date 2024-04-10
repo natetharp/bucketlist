@@ -38,7 +38,7 @@ const addStadiums = (data) => {
 		// populate the element
 		stadiumTemplate.querySelector("h3").innerText = stadium.name;
 		stadiumTemplate.querySelector(".location").innerText = stadium.location.city + ", " + stadium.location.state;
-		stadiumTemplate.querySelector(".team-logo").src = "../assets/img/nfl-team-logos/" + teamName + ".png";
+		stadiumTemplate.querySelector(".team-logo").src = "./assets/img/nfl-team-logos/" + teamName + ".png";
 		stadiumTemplate.querySelector(".team-logo").alt = stadium.team + " logo";
 		stadiumTemplate.querySelector(".team-logo").title = stadium.team;
 

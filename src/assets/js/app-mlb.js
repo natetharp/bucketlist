@@ -38,7 +38,7 @@ const addBallparks = (data) => {
 		// populate the element
 		ballparkTemplate.querySelector("h3").innerText = ballpark.name;
 		ballparkTemplate.querySelector(".location").innerText = ballpark.location.city + ", " + ballpark.location.state;
-		ballparkTemplate.querySelector(".team-logo").src = "../assets/img/mlb-team-logos/" + teamName + ".png";
+		ballparkTemplate.querySelector(".team-logo").src = "./assets/img/mlb-team-logos/" + teamName + ".png";
 		ballparkTemplate.querySelector(".team-logo").alt = ballpark.team + " logo";
 		ballparkTemplate.querySelector(".team-logo").title = ballpark.team;
 

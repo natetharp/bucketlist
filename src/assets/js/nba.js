@@ -22,6 +22,11 @@ const nba = [
 			city: "Brooklyn",
 			state: "NY",
 		},
+		dateVisited: {
+			month: 12,
+			day: 22,
+			year: 2016,
+		},
 	},
 	{
 		name: "Capital One Arena",
@@ -47,9 +52,9 @@ const nba = [
 			state: "CA",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 04,
+			day: 22,
+			year: 2012,
 		},
 	},
 	{
@@ -60,9 +65,9 @@ const nba = [
 			state: "CA",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 04,
+			day: 22,
+			year: 2012,
 		},
 	},
 	{
@@ -113,9 +118,9 @@ const nba = [
 			state: "IN",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 02,
+			day: 04,
+			year: 2012,
 		},
 	},
 	{
@@ -158,9 +163,9 @@ const nba = [
 			state: "NY",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 12,
+			day: 15,
+			year: 2010,
 		},
 	},
 	{

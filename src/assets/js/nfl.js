@@ -23,9 +23,9 @@ const nfl = [
 			state: "MO",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 01,
+			day: 02,
+			year: 2011,
 		},
 	},
 	{
@@ -66,11 +66,6 @@ const nfl = [
 		location: {
 			city: "Denver",
 			state: "CO",
-		},
-		dateVisited: {
-			month: 8,
-			day: 11,
-			year: 2022,
 		},
 	},
 	{
@@ -123,9 +118,9 @@ const nfl = [
 			state: "NY",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 09,
+			day: 25,
+			year: 2011,
 		},
 	},
 	{
@@ -136,9 +131,9 @@ const nfl = [
 			state: "WI",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 11,
+			day: 16,
+			year: 2014,
 		},
 	},
 	{
@@ -147,11 +142,6 @@ const nfl = [
 		location: {
 			city: "Santa Clara",
 			state: "CA",
-		},
-		dateVisited: {
-			month: 8,
-			day: 11,
-			year: 2022,
 		},
 	},
 	{
@@ -170,9 +160,9 @@ const nfl = [
 			state: "IN",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 02,
+			day: 05,
+			year: 2012,
 		},
 	},
 	{
@@ -225,9 +215,9 @@ const nfl = [
 			state: "NJ",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 11,
+			day: 04,
+			year: 2011,
 		},
 	},
 	{
@@ -270,9 +260,9 @@ const nfl = [
 			state: "CA",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 10,
+			day: 16,
+			year: 2023,
 		},
 	},
 	{

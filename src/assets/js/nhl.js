@@ -87,9 +87,9 @@ const nhl = [
 			state: "CA",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 05,
+			day: 19,
+			year: 2013,
 		},
 	},
 	{
@@ -115,6 +115,11 @@ const nhl = [
 			city: "Buffalo",
 			state: "NY",
 		},
+		dateVisited: {
+			month: 11,
+			day: 13,
+			year: 2010,
+		},
 	},
 	{
 		name: "Little Caesars Arena",
@@ -132,9 +137,9 @@ const nhl = [
 			state: "NY",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 05,
+			day: 12,
+			year: 2012,
 		},
 	},
 	{
@@ -175,6 +180,11 @@ const nhl = [
 		location: {
 			city: "Newark",
 			state: "NJ",
+		},
+		dateVisited: {
+			month: 01,
+			day: 01,
+			year: 1900,
 		},
 	},
 	{
@@ -223,6 +233,11 @@ const nhl = [
 		location: {
 			city: "Boston",
 			state: "MA",
+		},
+		dateVisited: {
+			month: 01,
+			day: 01,
+			year: 1900,
 		},
 	},
 	{

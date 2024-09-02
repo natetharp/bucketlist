@@ -7,7 +7,7 @@ const mlb = [
 			state: "CA",
 		},
 		dateVisited: {
-			month: 09,
+			month: 9,
 			day: 17,
 			year: 2017,
 		},
@@ -41,7 +41,7 @@ const mlb = [
 			state: "NY",
 		},
 		dateVisited: {
-			month: 05,
+			month: 5,
 			day: 27,
 			year: 2011,
 		},
@@ -83,8 +83,8 @@ const mlb = [
 			state: "CA",
 		},
 		dateVisited: {
-			month: 09,
-			day: 01,
+			month: 9,
+			day: 1,
 			year: 2010,
 		},
 	},
@@ -96,7 +96,7 @@ const mlb = [
 			state: "MA",
 		},
 		dateVisited: {
-			month: 06,
+			month: 6,
 			day: 25,
 			year: 2015,
 		},
@@ -194,7 +194,7 @@ const mlb = [
 			state: "MD",
 		},
 		dateVisited: {
-			month: 09,
+			month: 9,
 			day: 17,
 			year: 2016,
 		},
@@ -244,8 +244,8 @@ const mlb = [
 			state: "WA",
 		},
 		dateVisited: {
-			month: 07,
-			day: 03,
+			month: 7,
+			day: 3,
 			year: 2019,
 		},
 	},
@@ -286,7 +286,7 @@ const mlb = [
 			state: "IL",
 		},
 		dateVisited: {
-			month: 06,
+			month: 6,
 			day: 21,
 			year: 2013,
 		},

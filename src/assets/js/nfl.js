@@ -23,8 +23,8 @@ const nfl = [
 			state: "MO",
 		},
 		dateVisited: {
-			month: 01,
-			day: 02,
+			month: 1,
+			day: 2,
 			year: 2011,
 		},
 	},
@@ -118,7 +118,7 @@ const nfl = [
 			state: "NY",
 		},
 		dateVisited: {
-			month: 09,
+			month: 9,
 			day: 25,
 			year: 2011,
 		},
@@ -160,8 +160,8 @@ const nfl = [
 			state: "IN",
 		},
 		dateVisited: {
-			month: 02,
-			day: 05,
+			month: 2,
+			day: 5,
 			year: 2012,
 		},
 	},
@@ -216,7 +216,7 @@ const nfl = [
 		},
 		dateVisited: {
 			month: 11,
-			day: 04,
+			day: 4,
 			year: 2011,
 		},
 	},

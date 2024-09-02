@@ -7,9 +7,9 @@ const mlb = [
 			state: "CA",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 09,
+			day: 17,
+			year: 2017,
 		},
 	},
 	{
@@ -41,9 +41,9 @@ const mlb = [
 			state: "NY",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 05,
+			day: 27,
+			year: 2011,
 		},
 	},
 	{
@@ -83,9 +83,9 @@ const mlb = [
 			state: "CA",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 09,
+			day: 01,
+			year: 2010,
 		},
 	},
 	{
@@ -96,9 +96,9 @@ const mlb = [
 			state: "MA",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 06,
+			day: 25,
+			year: 2015,
 		},
 	},
 	{
@@ -194,9 +194,9 @@ const mlb = [
 			state: "MD",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 09,
+			day: 17,
+			year: 2016,
 		},
 	},
 	{
@@ -244,9 +244,9 @@ const mlb = [
 			state: "WA",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 07,
+			day: 03,
+			year: 2019,
 		},
 	},
 	{
@@ -286,9 +286,9 @@ const mlb = [
 			state: "IL",
 		},
 		dateVisited: {
-			month: 1,
-			day: 1,
-			year: 1900,
+			month: 06,
+			day: 21,
+			year: 2013,
 		},
 	},
 	{

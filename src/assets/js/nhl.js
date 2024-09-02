@@ -87,7 +87,7 @@ const nhl = [
 			state: "CA",
 		},
 		dateVisited: {
-			month: 05,
+			month: 5,
 			day: 19,
 			year: 2013,
 		},
@@ -137,7 +137,7 @@ const nhl = [
 			state: "NY",
 		},
 		dateVisited: {
-			month: 05,
+			month: 5,
 			day: 12,
 			year: 2012,
 		},
@@ -182,8 +182,8 @@ const nhl = [
 			state: "NJ",
 		},
 		dateVisited: {
-			month: 01,
-			day: 01,
+			month: 1,
+			day: 1,
 			year: 1900,
 		},
 	},
@@ -235,8 +235,8 @@ const nhl = [
 			state: "MA",
 		},
 		dateVisited: {
-			month: 01,
-			day: 01,
+			month: 1,
+			day: 1,
 			year: 1900,
 		},
 	},

@@ -52,7 +52,7 @@ const nba = [
 			state: "CA",
 		},
 		dateVisited: {
-			month: 04,
+			month: 4,
 			day: 22,
 			year: 2012,
 		},
@@ -65,7 +65,7 @@ const nba = [
 			state: "CA",
 		},
 		dateVisited: {
-			month: 04,
+			month: 4,
 			day: 22,
 			year: 2012,
 		},
@@ -118,8 +118,8 @@ const nba = [
 			state: "IN",
 		},
 		dateVisited: {
-			month: 02,
-			day: 04,
+			month: 2,
+			day: 4,
 			year: 2012,
 		},
 	},
